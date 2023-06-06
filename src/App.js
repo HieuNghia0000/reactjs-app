@@ -3,12 +3,13 @@ import './App.css';
 import Navigation from './components/Navigation';
 import Player from './components/Player';
 import Footer from './Footer';
+import Main from './components/Main';
 
 function App() {
   return (
     <div className="App">
       <Navigation/>
-      <Player/>
+      <Main/>
       <Footer/>
     </div>
   );
